@@ -69,7 +69,7 @@ Bu layihə, istifadəçilərin qeydiyyatdan keçməsi, məkanlarda rezervasiya e
 
 ## API Dokumentasiyası
 
-- **Swagger:** API sənədləri Swagger vasitəsilə təqdim edilir. [Swagger Dokumentasiyası](<swagger-url>)
+- **Swagger:** API sənədləri Swagger vasitəsilə təqdim edilir.
 
 ## Docker İnteqrasiyası
 
