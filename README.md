@@ -54,7 +54,7 @@ Bu layihə, istifadəçilərin qeydiyyatdan keçməsi, məkanlarda rezervasiya e
 
 ## Quraşdırma
 
-1. **Klonlamaq:** `git clone <repository-url>`
+1. **Klonlamaq:** `git clone https://github.com/XayalXudiyev/Reservation-system`
 2. **Asılılıqları Yükləmək:** `npm install`
 3. **Ətraf Mühit Dəyişənləri:** `.env` faylını yaradın və müvafiq dəyişənləri əlavə edin.
 4. **Serveri İşə Salmaq:** `npm start`
@@ -65,7 +65,7 @@ Bu layihə, istifadəçilərin qeydiyyatdan keçməsi, məkanlarda rezervasiya e
 
 ## Deployment
 
-- **Netlify:** Layihə [Netlify-də yerləşdirilib](https://www.netlify.com)
+- **Netlify:** Layihə https://reservation-system.up.railway.app/api-docs/
 
 ## API Dokumentasiyası
 
