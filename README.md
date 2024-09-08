@@ -12,7 +12,7 @@ Bu layihə, istifadəçilərin qeydiyyatdan keçməsi, məkanlarda rezervasiya e
 - **Testlər:** Jest
 - **API Dokumentasiyası:** Swagger
 - **Docker İnteqrasiyası:** Docker Compose
-- **Deployment:** Netlify
+- **Deployment:** Railway
 
 ## Funksional Xüsusiyyətlər
 
@@ -65,7 +65,7 @@ Bu layihə, istifadəçilərin qeydiyyatdan keçməsi, məkanlarda rezervasiya e
 
 ## Deployment
 
-- **Netlify:** Layihə https://reservation-system.up.railway.app/api-docs/
+- **Railway:** Layihə https://reservation-system.up.railway.app/api-docs/
 
 ## API Dokumentasiyası
 
