@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken")
-const { RegisterModel } = require("../models/User")
+const { UserModel } = require("../models/User")
 
 exports.verifyToken = async (req, res, next) => {
   const authHeader = req.header("Authorization")
@@ -17,7 +17,7 @@ exports.verifyToken = async (req, res, next) => {
   try {
     const payload = jwt.verify(token, process.env.JWT_SECRET)
 
-    const user = await RegisterModel.findById(payload.id)
+    const user = await UserModel.findById(payload.id)
     if (!user) {
       return res.status(404).json({ message: "User not found" })
     }
